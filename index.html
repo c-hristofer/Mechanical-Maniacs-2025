@@ -1,60 +1,79 @@
 <!DOCTYPE html>
+<!-- Landing page for Mechanical Maniacs with hero overview and navigation to subpages -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Little Volts | First Lego League Team</title>
-  <meta name="description" content="Little Volts FLL team – sparking innovation with robotics, STEM learning, and community impact.">
+  <title>Mechanical Maniacs | FIRST LEGO League Team</title>
+  <meta name="description" content="Mechanical Maniacs share artifacts, Unearthed 2025 insights, community engagement, and team stories from Central Florida.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body id="top">
+  <!-- Sticky navigation with language selector -->
   <header class="site-header">
     <div class="inner">
-      <a class="logo" href="#top">Little Volts</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+      <a class="logo" href="index.html" data-i18n="nav.logo">Mechanical Maniacs</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" data-i18n="nav.toggle" data-i18n-attr="aria-label" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
         <ul>
-          <li><a href="#innovation">Innovation Project</a></li>
-          <li><a href="#robot-game">Robot Game</a></li>
-          <li><a href="#outreach">Community Impact</a></li>
-          <li><a href="#team">Meet the Team</a></li>
-          <li><a href="#timeline">Season Timeline</a></li>
-          <li><a class="cta" href="#contact">Support Us</a></li>
+          <li><a class="active" href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="artifacts.html" data-i18n="nav.artifacts">Artifacts</a></li>
+          <li><a href="unearthed.html" data-i18n="nav.unearthed">Unearthed 2025</a></li>
+          <li><a href="community.html" data-i18n="nav.community">Community</a></li>
+          <li><a href="team.html" data-i18n="nav.team">Team</a></li>
         </ul>
       </nav>
+      <div class="language-switcher" role="radiogroup" aria-label="Language selector">
+        <button class="lang-btn" data-lang="en" aria-label="English">
+          <span class="flag">🇺🇸</span>
+        </button>
+        <button class="lang-btn" data-lang="es" aria-label="Español">
+          <span class="flag">🇪🇸</span>
+        </button>
+        <button class="lang-btn" data-lang="zh" aria-label="中文">
+          <span class="flag">🇨🇳</span>
+        </button>
+        <button class="lang-btn" data-lang="fr" aria-label="Français">
+          <span class="flag">🇫🇷</span>
+        </button>
+        <button class="lang-btn" data-lang="ar" aria-label="العربية">
+          <span class="flag flag-arab-league" aria-hidden="true"></span>
+        </button>
+      </div>
     </div>
   </header>
 
   <main>
+    <!-- Hero introduces team mission and key stats -->
     <section class="hero">
       <div class="inner">
-        <span class="label">FIRST LEGO League Challenge</span>
-        <h1>Little Volts spark big ideas.</h1>
-        <p>We are a team of curious builders, coders, and changemakers using robotics to solve real-world problems and electrify our community with STEM excitement.</p>
+        <span class="label" data-i18n="home.hero.label">Mechanical Maniacs · Central Florida</span>
+        <h1 data-i18n="home.hero.heading">Bringing UNEARTHED stories to life.</h1>
+        <p data-i18n="home.hero.body">Mechanical Maniacs document artifacts, engineer immersive field missions, and invite our community to dig into STEM during the 2025 FIRST LEGO League UNEARTHED season.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#innovation">Explore our project</a>
-          <a class="btn secondary" href="#contact">Get involved</a>
+          <a class="btn primary" href="artifacts.html" data-i18n="home.hero.primary">Browse artifacts</a>
+          <a class="btn secondary" href="team.html" data-i18n="home.hero.secondary">Meet the Maniacs</a>
         </div>
         <div class="hero-stats">
           <article>
-            <strong>6</strong>
-            <span>Engineers-in-training</span>
+            <strong>10</strong>
+            <span data-i18n="home.stats.years">Seasons competing</span>
           </article>
           <article>
-            <strong>120+</strong>
-            <span>Hours of prototyping</span>
+            <strong>8</strong>
+            <span data-i18n="home.stats.team">Builders & storytellers</span>
           </article>
           <article>
-            <strong>4</strong>
-            <span>Community partners</span>
+            <strong>18</strong>
+            <span data-i18n="home.stats.events">Community events</span>
           </article>
         </div>
       </div>
@@ -72,179 +91,35 @@
       </div>
     </section>
 
-    <section id="innovation" class="section">
+    <!-- Quick links guiding visitors to the four primary pages -->
+    <section class="section accent">
       <div class="inner">
         <div class="section-header">
-          <span class="label">Innovation Project</span>
-          <h2>Connecting energy-saving habits to daily living.</h2>
-          <p>Inspired by the 2024-2025 FIRST LEGO League Challenge theme, we designed a smart home companion that coaches families to reduce wasted power while keeping life fun and effortless.</p>
+          <span class="label" data-i18n="home.nav.label">Navigate</span>
+          <h2 data-i18n="home.nav.heading">Everything you need for the UNEARTHED season.</h2>
+          <p data-i18n="home.nav.body">Follow the breadcrumbs through artifacts, research notes, outreach commitments, and the people who power Mechanical Maniacs.</p>
         </div>
-        <div class="feature-grid">
+        <div class="feature-grid link-grid">
           <article>
-            <h3>Problem</h3>
-            <p>Households struggle to visualize the impact of their energy use. Most tools are complicated, and busy families need playful reminders instead of more apps to manage.</p>
+            <h3 data-i18n="home.nav.artifacts.title">Artifacts</h3>
+            <p data-i18n="home.nav.artifacts.body">Preview the six-story catalog and open each artifact dossier.</p>
+            <a class="text-link" href="artifacts.html" data-i18n="home.nav.artifacts.link">View artifacts →</a>
           </article>
           <article>
-            <h3>Breakthrough Idea</h3>
-            <p>Little Volts is building a tabletop assistant and mobile dashboard that celebrates savings with positive feedback, friendly characters, and weekly challenges tailored to each family.</p>
+            <h3 data-i18n="home.nav.unearthed.title">UNEARTHED 2025</h3>
+            <p data-i18n="home.nav.unearthed.body">Understand the challenge brief, strategy pillars, and research.</p>
+            <a class="text-link" href="unearthed.html" data-i18n="home.nav.unearthed.link">Read the brief →</a>
           </article>
           <article>
-            <h3>Prototype</h3>
-            <p>Our build combines LEGO Spike sensors, a microcontroller, and recycled materials. A color-changing voltage vine shows progress, and our app unlocks new sparks as energy goals are met.</p>
+            <h3 data-i18n="home.nav.community.title">Community</h3>
+            <p data-i18n="home.nav.community.body">See how we activate museums, libraries, and dig partners.</p>
+            <a class="text-link" href="community.html" data-i18n="home.nav.community.link">Community engagement →</a>
           </article>
           <article>
-            <h3>Impact Goals</h3>
-            <p>We aim to reduce participating families&rsquo; electricity usage by 15% over a season, create lesson kits for classrooms, and share our open-source designs with other FLL teams.</p>
+            <h3 data-i18n="home.nav.team.title">Team</h3>
+            <p data-i18n="home.nav.team.body">Meet the Florida Mechanical Maniacs mentors and students.</p>
+            <a class="text-link" href="team.html" data-i18n="home.nav.team.link">Meet the Maniacs →</a>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="robot-game" class="section accent">
-      <div class="inner split">
-        <div>
-          <span class="label">Robot Game</span>
-          <h2>Precision driving. Adaptable strategy.</h2>
-          <p>Our robot, Volt Runner, uses modular attachments and a color-coded calibration system to conquer missions efficiently.</p>
-          <ul class="highlight-list">
-            <li>Two-motor drivetrain with gyro assisted straight-line accuracy</li>
-            <li>Quick-swap mission attachments tuned to maximize combo runs</li>
-            <li>In-match diagnostics that help us adapt when the field changes</li>
-            <li>Practice logs reviewed weekly to iterate and improve consistency</li>
-          </ul>
-        </div>
-        <div class="card-stack">
-          <article>
-            <strong>275 pts</strong>
-            <span>Highest practice score</span>
-          </article>
-          <article>
-            <strong>7 runs</strong>
-            <span>Average successful missions</span>
-          </article>
-          <article>
-            <strong>3D printed</strong>
-            <span>Custom guides and brackets</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="outreach" class="section">
-      <div class="inner">
-        <div class="section-header">
-          <span class="label">Community Impact</span>
-          <h2>Empowering our neighbors with STEM sparks.</h2>
-          <p>Sharing the excitement of robotics is core to our mission. We host free workshops, mentor younger teams, and partner with local organizations to make STEM accessible.</p>
-        </div>
-        <div class="impact-grid">
-          <article>
-            <h3>Workshops</h3>
-            <p>Monthly LEGO build-and-code sessions at the library reached over 60 students in 2024.</p>
-          </article>
-          <article>
-            <h3>Partnerships</h3>
-            <p>Collaborated with Volt Energy Co-op to create energy detective kits for classrooms.</p>
-          </article>
-          <article>
-            <h3>Volunteering</h3>
-            <p>Little Volts assist at regional tournaments and coach Junior teams to help them grow.</p>
-          </article>
-          <article>
-            <h3>Storytelling</h3>
-            <p>We document our season with videos, blogs, and social posts to inspire future innovators.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="section accent">
-      <div class="inner">
-        <div class="section-header">
-          <span class="label">Team</span>
-          <h2>Meet the Little Volts.</h2>
-          <p>Each teammate brings a unique spark—engineering, design, storytelling, and outreach. Together we keep our robot humming and our community energized.</p>
-        </div>
-        <div class="team-grid">
-          <article>
-            <h3>Avery</h3>
-            <p>Lead programmer who loves debugging and dance breaks.</p>
-          </article>
-          <article>
-            <h3>Milo</h3>
-            <p>Attachment architect and 3D printing wizard.</p>
-          </article>
-          <article>
-            <h3>Riya</h3>
-            <p>Innovation researcher connecting our project to real users.</p>
-          </article>
-          <article>
-            <h3>Jonah</h3>
-            <p>Field strategist who charts mission order with precision.</p>
-          </article>
-          <article>
-            <h3>Sophie</h3>
-            <p>Team storyteller capturing photos, videos, and presentations.</p>
-          </article>
-          <article>
-            <h3>Luis</h3>
-            <p>Outreach coordinator building partnerships around town.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="timeline" class="section">
-      <div class="inner">
-        <div class="section-header">
-          <span class="label">Season Timeline</span>
-          <h2>From kickoff to competition.</h2>
-          <p>We set measurable milestones each month to stay focused, balanced, and ready for tournament day.</p>
-        </div>
-        <div class="timeline">
-          <article>
-            <h3>August</h3>
-            <p>Kickoff brainstorm, team contract, and skill refresher workshops.</p>
-          </article>
-          <article>
-            <h3>September</h3>
-            <p>Prototype robot base, interview energy experts, and start user research.</p>
-          </article>
-          <article>
-            <h3>October</h3>
-            <p>Build first innovation prototype, test missions, and host a community demo.</p>
-          </article>
-          <article>
-            <h3>November</h3>
-            <p>Iterate attachments, polish presentation, and refine tournament strategy.</p>
-          </article>
-          <article>
-            <h3>December</h3>
-            <p>Scrimmage with partner teams, finalize documentation, and celebrate progress.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section accent">
-      <div class="inner split">
-        <div>
-          <span class="label">Get Involved</span>
-          <h2>Help us keep the sparks flying.</h2>
-          <p>We welcome mentors, sponsors, and new opportunities to share our project. Reach out and let’s collaborate.</p>
-          <ul class="highlight-list">
-            <li>Invite Little Volts to present at your event</li>
-            <li>Partner on STEM outreach or classroom workshops</li>
-            <li>Sponsor parts, travel, or presentation materials</li>
-            <li>Share expert feedback on energy-saving habits</li>
-          </ul>
-        </div>
-        <div class="contact-card">
-          <h3>Contact</h3>
-          <p><strong>Email:</strong> <a href="mailto:littlevolts@fll.team">littlevolts@fll.team</a></p>
-          <p><strong>Instagram:</strong> <a href="https://instagram.com/littlevolts" target="_blank" rel="noopener">instagram.com/littlevolts</a></p>
-          <p><strong>Newsletter:</strong> Sign up to receive monthly sparks of progress.</p>
-          <a class="btn primary" href="https://example.com/signup" target="_blank" rel="noopener">Join the newsletter</a>
         </div>
       </div>
     </section>
@@ -252,8 +127,8 @@
 
   <footer class="site-footer">
     <div class="inner">
-      <p>© <span id="year"></span> Little Volts FLL Team. All sparks reserved.</p>
-      <a class="back-to-top" href="#top">Back to top</a>
+      <p>© <span id="year"></span> <span data-i18n="footer.copy">Mechanical Maniacs. All rights reserved.</span></p>
+      <a class="back-to-top" href="#top" data-i18n="footer.backToTop">Back to top</a>
     </div>
   </footer>
 
