@@ -130,7 +130,7 @@ const translations = {
     "team.members.member3": "Franklin the questioner enjoys naming stuff, and adding creative ideas and making jokes, He is the creator of the quote \"I wouldn't trust you with a ham sandwich and a forty two night dollah.\"",
     "team.members.member4": "Likes to solve problems that occure in coding and designing our robot. Also enjoys 3D modeling and math. and is known for his qote \"Sour to the people\" from Warheads.",
     "team.members.member5": "Alex, the designer made mulitple atachants for the robot and enjoys designing and building new things. As well as coming up with creative ideas for solving many of the teams problems.",
-    "team.members.member6": "Add description here.",
+    "team.members.member6": "The newcomer to FLL. New to robots and coding. She likes to build and create soutions. She thinks the team is very informative and fun, and that the coaches are nice and also very informative  ",
     "team.collab.list1": "Monday missions: robot run logs + attachment tweaks",
     "team.collab.list2": "Wednesday workshops: artifact documentation and interview prep",
     "team.collab.list3": "Friday share-outs: community event planning and presentation rehearsal",
