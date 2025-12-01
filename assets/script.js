@@ -11,7 +11,7 @@ const translations = {
     "footer.backToTop": "Back to top",
     "home.hero.label": "Mechanical Maniacs · Central Florida",
     "home.hero.heading": "Bringing UNEARTHED stories to life.",
-    "home.hero.body": "Mechanical Maniacs document artifacts, engineer immersive field missions, and invite our community to dig into STEM during the 2025 FIRST LEGO League UNEARTHED season.",
+    "home.hero.body": "Mechanical Maniacs is a First Lego League (FLL) team with a mission to go to state competition. This website is part of their journey their.The goal of this website is to document culture and the artifacts that represent it.",
     "home.hero.primary": "Browse artifacts",
     "home.hero.secondary": "Meet the Maniacs",
     "home.stats.years": "Seasons competing",
