@@ -1,7 +1,8 @@
 // Centralized translation dictionary for all supported languages
 const translations = {
   "en": {
-    "nav.logo": "Mechanical Maniacs",
+    "nav.logo": "Artifactstory.com",
+    "nav.tagline": "Preserving culture one story at a time",
     "nav.home": "Home",
     "nav.artifacts": "Artifacts",
     "nav.unearthed": "UNEARTHED 2025",
@@ -105,7 +106,8 @@ const translations = {
     "team.mentors.coach4": "<strong>Mr. Chris</strong> · Mentor with a computer science degree."
   },
   "es": {
-    "nav.logo": "Mechanical Maniacs",
+    "nav.logo": "Artifactstory.com",
+    "nav.tagline": "Preservando la cultura, una historia a la vez",
     "nav.home": "Inicio",
     "nav.artifacts": "Artefactos",
     "nav.unearthed": "UNEARTHED 2025",
@@ -209,7 +211,8 @@ const translations = {
     "team.mentors.coach4": "<strong>Sr. Chris</strong> · Mentor con título en ciencias de la computación."
   },
   "zh": {
-    "nav.logo": "Mechanical Maniacs",
+    "nav.logo": "Artifactstory.com",
+    "nav.tagline": "保护文化，讲述故事",
     "nav.home": "首页",
     "nav.artifacts": "文物",
     "nav.unearthed": "UNEARTHED 2025",
@@ -313,7 +316,8 @@ const translations = {
     "team.mentors.coach4": "<strong>Chris 先生</strong> · 拥有计算机科学学位的导师。"
   },
   "fr": {
-    "nav.logo": "Mechanical Maniacs",
+    "nav.logo": "Artifactstory.com",
+    "nav.tagline": "Préserver la culture, une histoire à la fois",
     "nav.home": "Accueil",
     "nav.artifacts": "Artefacts",
     "nav.unearthed": "UNEARTHED 2025",
@@ -417,7 +421,8 @@ const translations = {
     "team.mentors.coach4": "<strong>M. Chris</strong> · Mentor titulaire d’un diplôme d’informatique."
   },
   "ar": {
-    "nav.logo": "ميكانيكل مانيَكس",
+    "nav.logo": "Artifactstory.com",
+    "nav.tagline": "نحمي الثقافة، نحكي القصص",
     "nav.home": "الرئيسية",
     "nav.artifacts": "القطع",
     "nav.unearthed": "UNEARTHED 2025",
