@@ -72,7 +72,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  /* make header span full viewport so the logo can sit closer to the left edge */
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem clamp(0.5rem, 2vw, 1.25rem);
   gap: 1rem;
   flex-wrap: wrap;
 }
